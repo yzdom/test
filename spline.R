@@ -1,6 +1,7 @@
 #merged
 #remote edit
 #local changes 2
+#remote changes 2
 
 library(dplyr)
 library(ggplot2)
