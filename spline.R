@@ -1,4 +1,4 @@
-#changed
+#branch 1
 
 library(dplyr)
 library(ggplot2)
@@ -9,7 +9,7 @@ x=seq(1,23)
 y1=c(	0,	0,	0,	0,	0,	1329,	2579,	3246,	7658,	10000,	13245,	17598,	20000,	17893,	16783,	23879,	30000,	23478,	15678,	10000,	5673,	46,	32)
 y2=y1+c(rep(0,5),rnorm(23-5,0,5000))
 
-inter_pt=3
+inter_pt=4
 tot_pt=inter_pt*22+23
 
 z1=spline(x = x,y = y1,n = tot_pt,method = "fmm")$y
